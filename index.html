@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form for greektogreek website</title>
+</head>
+<body>
+    <div>
+        <!--inline css-->
+     <h2 style="color: green; width: 400px; text-align: center; margin: auto;">Welcome To GreeksforGreeks</h2>
+    </div>
+    <br />
+    <!--inline css-->
+    <div style="width: 270px; margin: auto; ">
+        <!--Form-->
+        <form method="get" action="">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <br />
+            <div>
+                <!--dropdown-->
+                <label for="dropdown">Saturation</label>
+                <br />
+                <select name="hobby" id="dopdown">
+                    <option value="1">--None--</option>
+                    <option value="2">Cricket</option>
+                    <option value="3">Basketball</option>
+                    <option value="4">Football</option>
+                </select>
+            </div>
+            <br />
+            <!--textfield-->
+            <div>
+                <label for="fname">First name:</label>
+                <input type="text" name="fname" id="fname" required>
+            </div>
+            <br />
+            <div>
+                <label for="lname">Last name:</label>
+                <input type="text" name="lname" id="lname" required>
+            </div>
+            <br />
+            <!--radiobutton-->
+            <div>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+            <br />
+            <!--email-->
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <br />
+            <!--date of birth-->
+            <div>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" name="dob" id="dob">
+            </div>
+            <br />
+            <!--address-->
+            <div>
+                <label for="address">Address:</label>
+                <br />
+                <textarea name="address" id="address" cols="28" rows="4"></textarea>
+            </div>
+            <br />
+            <!--button-->
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </fieldset>
+    </form>
+</div>
+   
+    
+</body>
+</html>
